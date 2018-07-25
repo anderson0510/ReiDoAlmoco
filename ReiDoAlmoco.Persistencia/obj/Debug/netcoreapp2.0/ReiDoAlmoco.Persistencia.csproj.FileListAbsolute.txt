@@ -1,0 +1,12 @@
+C:\Users\Anderson\source\repos\ReiDoAlmoco\ReiDoAlmoco.Persistencia\obj\Debug\netcoreapp2.0\ReiDoAlmoco.Persistencia.csprojAssemblyReference.cache
+C:\Users\Anderson\source\repos\ReiDoAlmoco\ReiDoAlmoco.Persistencia\obj\Debug\netcoreapp2.0\ReiDoAlmoco.Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\Anderson\source\repos\ReiDoAlmoco\ReiDoAlmoco.Persistencia\obj\Debug\netcoreapp2.0\ReiDoAlmoco.Persistencia.AssemblyInfoInputs.cache
+C:\Users\Anderson\source\repos\ReiDoAlmoco\ReiDoAlmoco.Persistencia\obj\Debug\netcoreapp2.0\ReiDoAlmoco.Persistencia.AssemblyInfo.cs
+C:\Users\Anderson\source\repos\ReiDoAlmoco\ReiDoAlmoco.Persistencia\bin\Debug\netcoreapp2.0\ReiDoAlmoco.Persistencia.deps.json
+C:\Users\Anderson\source\repos\ReiDoAlmoco\ReiDoAlmoco.Persistencia\bin\Debug\netcoreapp2.0\ReiDoAlmoco.Persistencia.dll
+C:\Users\Anderson\source\repos\ReiDoAlmoco\ReiDoAlmoco.Persistencia\bin\Debug\netcoreapp2.0\ReiDoAlmoco.Persistencia.pdb
+C:\Users\Anderson\source\repos\ReiDoAlmoco\ReiDoAlmoco.Persistencia\bin\Debug\netcoreapp2.0\ReiDoAlmoco.Models.dll
+C:\Users\Anderson\source\repos\ReiDoAlmoco\ReiDoAlmoco.Persistencia\bin\Debug\netcoreapp2.0\ReiDoAlmoco.Models.pdb
+C:\Users\Anderson\source\repos\ReiDoAlmoco\ReiDoAlmoco.Persistencia\obj\Debug\netcoreapp2.0\ReiDoAlmoco.Persistencia.csproj.CopyComplete
+C:\Users\Anderson\source\repos\ReiDoAlmoco\ReiDoAlmoco.Persistencia\obj\Debug\netcoreapp2.0\ReiDoAlmoco.Persistencia.dll
+C:\Users\Anderson\source\repos\ReiDoAlmoco\ReiDoAlmoco.Persistencia\obj\Debug\netcoreapp2.0\ReiDoAlmoco.Persistencia.pdb

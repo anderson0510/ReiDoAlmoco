@@ -7,14 +7,41 @@
   "targets": {
     ".NETCoreApp,Version=v2.0": {
       "ReiDoAlmoco.RegrasDeNegocio/1.0.0": {
+        "dependencies": {
+          "ReiDoAlmoco.Models": "1.0.0",
+          "ReiDoAlmoco.Persistencia": "1.0.0"
+        },
         "runtime": {
           "ReiDoAlmoco.RegrasDeNegocio.dll": {}
+        }
+      },
+      "ReiDoAlmoco.Models/1.0.0": {
+        "runtime": {
+          "ReiDoAlmoco.Models.dll": {}
+        }
+      },
+      "ReiDoAlmoco.Persistencia/1.0.0": {
+        "dependencies": {
+          "ReiDoAlmoco.Models": "1.0.0"
+        },
+        "runtime": {
+          "ReiDoAlmoco.Persistencia.dll": {}
         }
       }
     }
   },
   "libraries": {
     "ReiDoAlmoco.RegrasDeNegocio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ReiDoAlmoco.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ReiDoAlmoco.Persistencia/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

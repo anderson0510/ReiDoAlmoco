@@ -5039,9 +5039,26 @@
           "bin/placeholder/ReiDoAlmoco.Models.dll": {}
         }
       },
+      "ReiDoAlmoco.Persistencia/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "ReiDoAlmoco.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ReiDoAlmoco.Persistencia.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ReiDoAlmoco.Persistencia.dll": {}
+        }
+      },
       "ReiDoAlmoco.RegrasDeNegocio/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "ReiDoAlmoco.Models": "1.0.0",
+          "ReiDoAlmoco.Persistencia": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/ReiDoAlmoco.RegrasDeNegocio.dll": {}
         },
@@ -13265,6 +13282,11 @@
       "type": "project",
       "path": "../ReiDoAlmoco.Models/ReiDoAlmoco.Models.csproj",
       "msbuildProject": "../ReiDoAlmoco.Models/ReiDoAlmoco.Models.csproj"
+    },
+    "ReiDoAlmoco.Persistencia/1.0.0": {
+      "type": "project",
+      "path": "../ReiDoAlmoco.Persistencia/ReiDoAlmoco.Persistencia.csproj",
+      "msbuildProject": "../ReiDoAlmoco.Persistencia/ReiDoAlmoco.Persistencia.csproj"
     },
     "ReiDoAlmoco.RegrasDeNegocio/1.0.0": {
       "type": "project",

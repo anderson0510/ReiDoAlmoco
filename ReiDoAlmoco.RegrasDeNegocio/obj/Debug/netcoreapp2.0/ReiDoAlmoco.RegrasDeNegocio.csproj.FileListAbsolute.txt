@@ -16,3 +16,8 @@ C:\Users\Anderson\source\repos\ReiDoAlmoco\ReiDoAlmoco.RegrasDeNegocio\obj\Debug
 C:\Users\Anderson\source\repos\ReiDoAlmoco\ReiDoAlmoco.RegrasDeNegocio\obj\Debug\netcoreapp2.0\ReiDoAlmoco.RegrasDeNegocio.AssemblyInfo.cs
 C:\Users\Anderson\source\repos\ReiDoAlmoco\ReiDoAlmoco.RegrasDeNegocio\obj\Debug\netcoreapp2.0\ReiDoAlmoco.RegrasDeNegocio.dll
 C:\Users\Anderson\source\repos\ReiDoAlmoco\ReiDoAlmoco.RegrasDeNegocio\obj\Debug\netcoreapp2.0\ReiDoAlmoco.RegrasDeNegocio.pdb
+C:\Users\Anderson\source\repos\ReiDoAlmoco\ReiDoAlmoco.RegrasDeNegocio\bin\Debug\netcoreapp2.0\ReiDoAlmoco.Models.dll
+C:\Users\Anderson\source\repos\ReiDoAlmoco\ReiDoAlmoco.RegrasDeNegocio\bin\Debug\netcoreapp2.0\ReiDoAlmoco.Persistencia.dll
+C:\Users\Anderson\source\repos\ReiDoAlmoco\ReiDoAlmoco.RegrasDeNegocio\bin\Debug\netcoreapp2.0\ReiDoAlmoco.Models.pdb
+C:\Users\Anderson\source\repos\ReiDoAlmoco\ReiDoAlmoco.RegrasDeNegocio\bin\Debug\netcoreapp2.0\ReiDoAlmoco.Persistencia.pdb
+C:\Users\Anderson\source\repos\ReiDoAlmoco\ReiDoAlmoco.RegrasDeNegocio\obj\Debug\netcoreapp2.0\ReiDoAlmoco.RegrasDeNegocio.csproj.CopyComplete

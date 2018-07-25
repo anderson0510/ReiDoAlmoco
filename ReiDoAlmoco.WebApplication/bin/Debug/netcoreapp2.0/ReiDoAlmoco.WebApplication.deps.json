@@ -4063,7 +4063,22 @@
           "ReiDoAlmoco.Models.dll": {}
         }
       },
+      "ReiDoAlmoco.Persistencia/1.0.0": {
+        "dependencies": {
+          "ReiDoAlmoco.Models": "1.0.0"
+        },
+        "runtime": {
+          "ReiDoAlmoco.Persistencia.dll": {}
+        },
+        "compile": {
+          "ReiDoAlmoco.Persistencia.dll": {}
+        }
+      },
       "ReiDoAlmoco.RegrasDeNegocio/1.0.0": {
+        "dependencies": {
+          "ReiDoAlmoco.Models": "1.0.0",
+          "ReiDoAlmoco.Persistencia": "1.0.0"
+        },
         "runtime": {
           "ReiDoAlmoco.RegrasDeNegocio.dll": {}
         },
@@ -6384,6 +6399,11 @@
       "hashPath": "windowsazure.storage.8.1.4.nupkg.sha512"
     },
     "ReiDoAlmoco.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ReiDoAlmoco.Persistencia/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

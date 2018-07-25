@@ -11,6 +11,7 @@ namespace ReiDoAlmoco.WebApplication.Controllers
 {
     public class CandidatosController : Controller
     {
+        private CadastroCandidatoRN ccrn = new CadastroCandidatoRN();
         [HttpGet]
         public IActionResult Cadastrar()
         {
@@ -23,15 +24,14 @@ namespace ReiDoAlmoco.WebApplication.Controllers
         {
             if (ModelState.IsValid)
             {
-                //Valida se o e-mail informado é único.
-                CadastroCandidatoRN ccrn = new CadastroCandidatoRN();
+                //Valida se o e-mail informado é único.                
                 if (!ccrn.EmailUnico(dados.Candidato.CandidatoEmail))
                 {
                     ModelState.AddModelError("Candidato.CandidatoEmail", "E-mail já utilizado.");
                     return View(dados);
                 }
 
-
+                ccrn.CadastraCandidato(dados.Candidato);
 
                 return Redirect("/Home");
             }

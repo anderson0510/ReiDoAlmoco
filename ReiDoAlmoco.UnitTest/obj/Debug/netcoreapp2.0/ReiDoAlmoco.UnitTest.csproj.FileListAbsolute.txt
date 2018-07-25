@@ -1,0 +1,14 @@
+C:\Users\Anderson\source\repos\ReiDoAlmoco\ReiDoAlmoco.UnitTest\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Anderson\source\repos\ReiDoAlmoco\ReiDoAlmoco.UnitTest\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Anderson\source\repos\ReiDoAlmoco\ReiDoAlmoco.UnitTest\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Anderson\source\repos\ReiDoAlmoco\ReiDoAlmoco.UnitTest\bin\Debug\netcoreapp2.0\ReiDoAlmoco.UnitTest.deps.json
+C:\Users\Anderson\source\repos\ReiDoAlmoco\ReiDoAlmoco.UnitTest\bin\Debug\netcoreapp2.0\ReiDoAlmoco.UnitTest.runtimeconfig.json
+C:\Users\Anderson\source\repos\ReiDoAlmoco\ReiDoAlmoco.UnitTest\bin\Debug\netcoreapp2.0\ReiDoAlmoco.UnitTest.runtimeconfig.dev.json
+C:\Users\Anderson\source\repos\ReiDoAlmoco\ReiDoAlmoco.UnitTest\bin\Debug\netcoreapp2.0\ReiDoAlmoco.UnitTest.dll
+C:\Users\Anderson\source\repos\ReiDoAlmoco\ReiDoAlmoco.UnitTest\bin\Debug\netcoreapp2.0\ReiDoAlmoco.UnitTest.pdb
+C:\Users\Anderson\source\repos\ReiDoAlmoco\ReiDoAlmoco.UnitTest\obj\Debug\netcoreapp2.0\ReiDoAlmoco.UnitTest.csprojAssemblyReference.cache
+C:\Users\Anderson\source\repos\ReiDoAlmoco\ReiDoAlmoco.UnitTest\obj\Debug\netcoreapp2.0\ReiDoAlmoco.UnitTest.csproj.CoreCompileInputs.cache
+C:\Users\Anderson\source\repos\ReiDoAlmoco\ReiDoAlmoco.UnitTest\obj\Debug\netcoreapp2.0\ReiDoAlmoco.UnitTest.AssemblyInfoInputs.cache
+C:\Users\Anderson\source\repos\ReiDoAlmoco\ReiDoAlmoco.UnitTest\obj\Debug\netcoreapp2.0\ReiDoAlmoco.UnitTest.AssemblyInfo.cs
+C:\Users\Anderson\source\repos\ReiDoAlmoco\ReiDoAlmoco.UnitTest\obj\Debug\netcoreapp2.0\ReiDoAlmoco.UnitTest.dll
+C:\Users\Anderson\source\repos\ReiDoAlmoco\ReiDoAlmoco.UnitTest\obj\Debug\netcoreapp2.0\ReiDoAlmoco.UnitTest.pdb

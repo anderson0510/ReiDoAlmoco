@@ -196,6 +196,29 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "ReiDoAlmoco.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "compile": {
+          "bin/placeholder/ReiDoAlmoco.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ReiDoAlmoco.Models.dll": {}
+        }
+      },
+      "ReiDoAlmoco.Persistencia/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "ReiDoAlmoco.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ReiDoAlmoco.Persistencia.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ReiDoAlmoco.Persistencia.dll": {}
+        }
       }
     }
   },
@@ -656,11 +679,23 @@
         "netstandard.library.2.0.0.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "ReiDoAlmoco.Models/1.0.0": {
+      "type": "project",
+      "path": "../ReiDoAlmoco.Models/ReiDoAlmoco.Models.csproj",
+      "msbuildProject": "../ReiDoAlmoco.Models/ReiDoAlmoco.Models.csproj"
+    },
+    "ReiDoAlmoco.Persistencia/1.0.0": {
+      "type": "project",
+      "path": "../ReiDoAlmoco.Persistencia/ReiDoAlmoco.Persistencia.csproj",
+      "msbuildProject": "../ReiDoAlmoco.Persistencia/ReiDoAlmoco.Persistencia.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
-      "Microsoft.NETCore.App >= 2.0.0"
+      "Microsoft.NETCore.App >= 2.0.0",
+      "ReiDoAlmoco.Models >= 1.0.0",
+      "ReiDoAlmoco.Persistencia >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -692,7 +727,14 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Anderson\\source\\repos\\ReiDoAlmoco\\ReiDoAlmoco.Models\\ReiDoAlmoco.Models.csproj": {
+              "projectPath": "C:\\Users\\Anderson\\source\\repos\\ReiDoAlmoco\\ReiDoAlmoco.Models\\ReiDoAlmoco.Models.csproj"
+            },
+            "C:\\Users\\Anderson\\source\\repos\\ReiDoAlmoco\\ReiDoAlmoco.Persistencia\\ReiDoAlmoco.Persistencia.csproj": {
+              "projectPath": "C:\\Users\\Anderson\\source\\repos\\ReiDoAlmoco\\ReiDoAlmoco.Persistencia\\ReiDoAlmoco.Persistencia.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

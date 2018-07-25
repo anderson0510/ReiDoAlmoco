@@ -5,7 +5,25 @@
 }
 
 <div class="jumbotron">
-    <h1>Rei do Almoço</h1>
+    <h1>Rei do Almoço de Hoje</h1>
+
+    @if (Model.VotacaoHojeEncerrada)
+    {
+        if (Model.ReiDeHoje != null)
+        {
+            <h2><img class="thumbnail thumbnail-custom" width="80" src="@Model.ReiDeHoje.CandidatoImgPath" />  @Model.ReiDeHoje.CandidatoNome</h2>
+        }
+    }
+    else
+    {
+        <h1>Rei do Almoço</h1>
+        @if (Model.VotacaoAberta)
+        {
+            <h2>Votação aberta</h2>
+        }
+    }
+
+
     <p>
         Vote todo dia das 10:00 às 12:00 da manhã para escolher um pretendente ao trono.
     </p>
@@ -16,35 +34,34 @@
     <div class="col-md-8">
         @if (Model.VotacaoAberta)
         {
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h3>Votação</h3>
-            </div>
-            @if (Model.Candidatos != null)
-            {
-                <div class="panel-body row">
-                    <div class="col-md-3 col-sm-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3>Votação</h3>
+                </div>
+                @if (Model.Candidatos != null && Model.Candidatos.Count > 0)
+                {
+                    <div class="panel-body row">
+
                         @foreach (var candidato in Model.Candidatos)
                         {
-                            <div class="panel panel-default clickable-panel">
-                                <img class="img-thumbnail center-block" width="80" src="@candidato.CandidatoImgPath" />
-                                <p class="text-center"><strong>@candidato.CandidatoNome</strong></p>
-                                <input type="hidden" value="@candidato.CandidatoId" />
+                            <div class="col-md-3 col-sm-6">
+                                <div class="panel panel-default clickable-panel">
+                                    <img class="img-thumbnail center-block" width="80" src="@candidato.CandidatoImgPath" />
+                                    <p class="text-center"><strong>@candidato.CandidatoNome</strong></p>
+                                    <input type="hidden" value="@candidato.CandidatoId" />
+                                </div>
                             </div>
                         }
                     </div>
-
-
-                </div>
-                <div class="panel-footer">
-                    <button id="btn-votar" class="btn btn-sm btn-danger" data-toggle="modal" data-target="#confModal" disabled>Votar</button>
-                </div>
-            }
-            else
-            {
-                <p class="text-center">Nenhum candidato cadastrado.</p>
-            }
-        </div>
+                    <div class="panel-footer">
+                        <button id="btn-votar" class="btn btn-sm btn-danger" data-toggle="modal" data-target="#confModal" disabled>Votar</button>
+                    </div>
+                }
+                else
+                {
+                    <p class="text-center">Nenhum candidato cadastrado.</p>
+                }
+            </div>
         }
         else
         {
@@ -134,7 +151,7 @@
 
 @if (Model.VotacaoAberta)
 {
-    <!-- Modal de confirmação do voto-->    
+    <!-- Modal de confirmação do voto-->
     <div class="modal fade" id="confModal" tabindex="-1" role="dialog" aria-labelledby="confModal">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -170,16 +187,16 @@
             $('#btn-votar').prop('disabled', false);
             $("#votoCandidatoId").attr("value", $(this).find('input').val());
             $('#lbl-candidatoNome').html($(this).find('p').html());
-            $('#img-Candidato').attr('src',$(this).find('img').attr('src'));
+            $('#img-Candidato').attr('src', $(this).find('img').attr('src'));
         });
 
         //Request Voto
         $(document).on('click', '#btn-request-voto', function () {
             $.ajax({
                 url: "Home/RegistraVoto/" + $("#votoCandidatoId").val(),
-                type: "GET",                
+                type: "GET",
                 success: function (htmlContent) {
-                    location.reload(); 
+                    location.reload();
                 },
                 error: function (errCode) {
                     alert('Erro ao salvar o voto.');

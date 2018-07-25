@@ -196,6 +196,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "ReiDoAlmoco.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "compile": {
+          "bin/placeholder/ReiDoAlmoco.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ReiDoAlmoco.Models.dll": {}
+        }
       }
     }
   },
@@ -656,11 +666,17 @@
         "netstandard.library.2.0.0.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "ReiDoAlmoco.Models/1.0.0": {
+      "type": "project",
+      "path": "../ReiDoAlmoco.Models/ReiDoAlmoco.Models.csproj",
+      "msbuildProject": "../ReiDoAlmoco.Models/ReiDoAlmoco.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
-      "Microsoft.NETCore.App >= 2.0.0"
+      "Microsoft.NETCore.App >= 2.0.0",
+      "ReiDoAlmoco.Models >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -692,7 +708,11 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Anderson\\source\\repos\\ReiDoAlmoco\\ReiDoAlmoco.Models\\ReiDoAlmoco.Models.csproj": {
+              "projectPath": "C:\\Users\\Anderson\\source\\repos\\ReiDoAlmoco\\ReiDoAlmoco.Models\\ReiDoAlmoco.Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

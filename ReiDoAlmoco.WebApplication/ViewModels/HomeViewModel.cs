@@ -10,6 +10,9 @@ namespace ReiDoAlmoco.WebApplication.ViewModels
     public class HomeViewModel
     {
         public bool VotacaoAberta { get; set; }
+        public bool VotacaoHojeEncerrada { get; set; }
+
+        public Candidato ReiDeHoje { get; set; }
 
         public ICollection<Candidato> Candidatos { get; set; }
 

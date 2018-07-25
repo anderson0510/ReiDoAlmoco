@@ -4,4 +4,8 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ReiDoAlmoco.Models\ReiDoAlmoco.Models.csproj" />
+  </ItemGroup>
+
 </Project>
