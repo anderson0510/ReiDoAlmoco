@@ -10,7 +10,9 @@
         "dependencies": {
           "MSTest.TestAdapter": "1.2.1",
           "MSTest.TestFramework": "1.2.1",
-          "Microsoft.NET.Test.Sdk": "15.7.0"
+          "Microsoft.NET.Test.Sdk": "15.7.0",
+          "ReiDoAlmoco.Models": "1.0.0",
+          "ReiDoAlmoco.RegrasDeNegocio": "1.0.0"
         },
         "runtime": {
           "ReiDoAlmoco.UnitTest.dll": {}
@@ -997,6 +999,28 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
+      },
+      "ReiDoAlmoco.Models/1.0.0": {
+        "runtime": {
+          "ReiDoAlmoco.Models.dll": {}
+        }
+      },
+      "ReiDoAlmoco.Persistencia/1.0.0": {
+        "dependencies": {
+          "ReiDoAlmoco.Models": "1.0.0"
+        },
+        "runtime": {
+          "ReiDoAlmoco.Persistencia.dll": {}
+        }
+      },
+      "ReiDoAlmoco.RegrasDeNegocio/1.0.0": {
+        "dependencies": {
+          "ReiDoAlmoco.Models": "1.0.0",
+          "ReiDoAlmoco.Persistencia": "1.0.0"
+        },
+        "runtime": {
+          "ReiDoAlmoco.RegrasDeNegocio.dll": {}
+        }
       }
     }
   },
@@ -1502,6 +1526,21 @@
       "sha512": "sha512-Zm2BdeanuncYs3NhCj4c9e1x3EXFzFBVv2wPEc/Dj4ZbI9R8ecLSR5frAsx4zJCPBtKQreQ7Q/KxJEohJZbfzA==",
       "path": "system.xml.xpath.xmldocument/4.0.1",
       "hashPath": "system.xml.xpath.xmldocument.4.0.1.nupkg.sha512"
+    },
+    "ReiDoAlmoco.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ReiDoAlmoco.Persistencia/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ReiDoAlmoco.RegrasDeNegocio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

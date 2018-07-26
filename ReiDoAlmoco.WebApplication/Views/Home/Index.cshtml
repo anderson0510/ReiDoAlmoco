@@ -15,8 +15,7 @@
         }
     }
     else
-    {
-        <h1>Rei do Almoço</h1>
+    {        
         @if (Model.VotacaoAberta)
         {
             <h2>Votação aberta</h2>
@@ -75,7 +74,7 @@
                 <h4>Reis das últimas semanas</h4>
             </div>
             <div class="panel-body">
-                @if (Model.ReisUltimasSemanasList != null)
+                @if (Model.ReisUltimasSemanasList != null && Model.ReisUltimasSemanasList.Count > 0)
                 {
                     <table class="table table-striped table-responsive table-hover">
                         <thead>
@@ -89,9 +88,9 @@
                             @foreach (var rei in Model.ReisUltimasSemanasList)
                             {
                                 <tr>
-                                    <td><p>@rei.Semana</p></td>
+                                    <td><p>@rei.Key</p></td>
                                     <td>
-                                        <p><img class="thumbnail thumbnail-custom" width="50" src="~/images/food-img-01.jpg" />  @rei.Rei.CandidatoNome</p>
+                                        <p><img class="thumbnail thumbnail-custom" width="50" src="~/@rei.Value.CandidatoImgPath" />  @rei.Value.CandidatoNome</p>
                                     </td>
                                 </tr>
                             }
@@ -113,7 +112,7 @@
                 <h4>Reis menos amados</h4>
             </div>
             <div class="panel-body">
-                @if (Model.ReisMenosAmadosList != null)
+                @if (Model.ReisMenosAmadosList != null && Model.ReisMenosAmadosList.Count > 0)
                 {
                     <table class="table table-striped table-responsive table-hover">
                         <thead>
@@ -126,12 +125,12 @@
 
                             @foreach (var rei in Model.ReisMenosAmadosList)
                             {
-                                <tr>
-                                    <td><p>@rei.Semana</p></td>
-                                    <td>
-                                        <p><img class="thumbnail thumbnail-custom" width="50" src="~/images/food-img-01.jpg" />  @rei.Rei.CandidatoNome</p>
-                                    </td>
-                                </tr>
+                            <tr>
+                                <td><p>@rei.Key</p></td>
+                                <td>
+                                    <p><img class="thumbnail thumbnail-custom" width="50" src="~/@rei.Value.CandidatoImgPath" />  @rei.Value.CandidatoNome</p>
+                                </td>
+                            </tr>
                             }
 
                         </tbody>
@@ -172,7 +171,6 @@
         </div>
     </div>
 }
-
 
 @section Scripts {
     <script>

@@ -14,7 +14,6 @@ namespace ReiDoAlmoco.Persistencia.UnitsOfWork
 
         }
 
-
         #region Candidato
         private ICandidatoRepository<Candidato> _candidatoRepository;
 
@@ -22,7 +21,7 @@ namespace ReiDoAlmoco.Persistencia.UnitsOfWork
         {
             get
             {
-                if(_candidatoRepository == null)
+                if (_candidatoRepository == null)
                 {
                     _candidatoRepository = new CandidatoRepositoryMemory();
                 }
@@ -46,5 +45,6 @@ namespace ReiDoAlmoco.Persistencia.UnitsOfWork
             }
         }
         #endregion
+        
     }
 }

@@ -25,6 +25,20 @@ namespace ReiDoAlmoco.Persistencia.Repositories
             throw new NotImplementedException();
         }
 
+        public ICollection<Voto> BuscarVotosEntreDatas(DateTime de, DateTime ate)
+        {
+            ICollection<Voto> resultado = new List<Voto>();
+
+            foreach (Voto v in dados.Votos)
+            {
+                if(v.Timestamp >= de && v.Timestamp <= ate)
+                {
+                    resultado.Add(v);
+                }
+            }
+            return resultado;
+        }
+
         public void Deletar(int id)
         {
             throw new NotImplementedException();

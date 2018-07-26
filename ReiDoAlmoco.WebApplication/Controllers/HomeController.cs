@@ -15,6 +15,7 @@ namespace ReiDoAlmoco.WebApplication.Controllers
     {
         private CadastroCandidatoRN ccrn = new CadastroCandidatoRN();
         private VotacaoRN vrn = new VotacaoRN();
+        
 
         [HttpGet]
         public IActionResult Index()
@@ -27,11 +28,11 @@ namespace ReiDoAlmoco.WebApplication.Controllers
 
             if (vrn.VotacaoHojeEncerrada(DateTime.Now))
             {
-                viewModel.ReiDeHoje = vrn.RetornaReiDoAlmoco(DateTime.Now);
+                viewModel.ReiDeHoje = vrn.RetornaReiDoAlmoco(DateTime.Now,true);
             }
 
-            //viewModel.ReisUltimasSemanasList = null;
-            //viewModel.ReisMenosAmadosList = null;
+            viewModel.ReisUltimasSemanasList = vrn.ListaReisUltimasSemanas();
+            viewModel.ReisMenosAmadosList = vrn.ListaReisMenosAmados();
 
             return View(viewModel);
         }
@@ -59,6 +60,11 @@ namespace ReiDoAlmoco.WebApplication.Controllers
 
         }
 
+        public IActionResult InsertFakeData()
+        {
+            vrn.TesteInsertData();
+            return Redirect("/Home");
+        }
 
         public IActionResult Error()
         {

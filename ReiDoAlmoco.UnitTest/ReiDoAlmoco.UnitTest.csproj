@@ -12,4 +12,9 @@
     <PackageReference Include="MSTest.TestFramework" Version="1.2.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ReiDoAlmoco.Models\ReiDoAlmoco.Models.csproj" />
+    <ProjectReference Include="..\ReiDoAlmoco.RegrasDeNegocio\ReiDoAlmoco.RegrasDeNegocio.csproj" />
+  </ItemGroup>
+
 </Project>

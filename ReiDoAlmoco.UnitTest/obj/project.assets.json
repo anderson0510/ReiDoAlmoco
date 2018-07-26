@@ -1611,6 +1611,43 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
+      },
+      "ReiDoAlmoco.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "compile": {
+          "bin/placeholder/ReiDoAlmoco.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ReiDoAlmoco.Models.dll": {}
+        }
+      },
+      "ReiDoAlmoco.Persistencia/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "ReiDoAlmoco.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ReiDoAlmoco.Persistencia.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ReiDoAlmoco.Persistencia.dll": {}
+        }
+      },
+      "ReiDoAlmoco.RegrasDeNegocio/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "ReiDoAlmoco.Models": "1.0.0",
+          "ReiDoAlmoco.Persistencia": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ReiDoAlmoco.RegrasDeNegocio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ReiDoAlmoco.RegrasDeNegocio.dll": {}
+        }
       }
     }
   },
@@ -5683,6 +5720,21 @@
         "system.xml.xpath.xmldocument.4.0.1.nupkg.sha512",
         "system.xml.xpath.xmldocument.nuspec"
       ]
+    },
+    "ReiDoAlmoco.Models/1.0.0": {
+      "type": "project",
+      "path": "../ReiDoAlmoco.Models/ReiDoAlmoco.Models.csproj",
+      "msbuildProject": "../ReiDoAlmoco.Models/ReiDoAlmoco.Models.csproj"
+    },
+    "ReiDoAlmoco.Persistencia/1.0.0": {
+      "type": "project",
+      "path": "../ReiDoAlmoco.Persistencia/ReiDoAlmoco.Persistencia.csproj",
+      "msbuildProject": "../ReiDoAlmoco.Persistencia/ReiDoAlmoco.Persistencia.csproj"
+    },
+    "ReiDoAlmoco.RegrasDeNegocio/1.0.0": {
+      "type": "project",
+      "path": "../ReiDoAlmoco.RegrasDeNegocio/ReiDoAlmoco.RegrasDeNegocio.csproj",
+      "msbuildProject": "../ReiDoAlmoco.RegrasDeNegocio/ReiDoAlmoco.RegrasDeNegocio.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5690,7 +5742,9 @@
       "MSTest.TestAdapter >= 1.2.1",
       "MSTest.TestFramework >= 1.2.1",
       "Microsoft.NET.Test.Sdk >= 15.7.0",
-      "Microsoft.NETCore.App >= 2.0.0"
+      "Microsoft.NETCore.App >= 2.0.0",
+      "ReiDoAlmoco.Models >= 1.0.0",
+      "ReiDoAlmoco.RegrasDeNegocio >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5722,7 +5776,14 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Anderson\\source\\repos\\ReiDoAlmoco\\ReiDoAlmoco.Models\\ReiDoAlmoco.Models.csproj": {
+              "projectPath": "C:\\Users\\Anderson\\source\\repos\\ReiDoAlmoco\\ReiDoAlmoco.Models\\ReiDoAlmoco.Models.csproj"
+            },
+            "C:\\Users\\Anderson\\source\\repos\\ReiDoAlmoco\\ReiDoAlmoco.RegrasDeNegocio\\ReiDoAlmoco.RegrasDeNegocio.csproj": {
+              "projectPath": "C:\\Users\\Anderson\\source\\repos\\ReiDoAlmoco\\ReiDoAlmoco.RegrasDeNegocio\\ReiDoAlmoco.RegrasDeNegocio.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

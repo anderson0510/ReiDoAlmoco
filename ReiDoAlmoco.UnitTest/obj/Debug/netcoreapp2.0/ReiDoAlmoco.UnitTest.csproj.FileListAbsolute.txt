@@ -12,3 +12,10 @@ C:\Users\Anderson\source\repos\ReiDoAlmoco\ReiDoAlmoco.UnitTest\obj\Debug\netcor
 C:\Users\Anderson\source\repos\ReiDoAlmoco\ReiDoAlmoco.UnitTest\obj\Debug\netcoreapp2.0\ReiDoAlmoco.UnitTest.AssemblyInfo.cs
 C:\Users\Anderson\source\repos\ReiDoAlmoco\ReiDoAlmoco.UnitTest\obj\Debug\netcoreapp2.0\ReiDoAlmoco.UnitTest.dll
 C:\Users\Anderson\source\repos\ReiDoAlmoco\ReiDoAlmoco.UnitTest\obj\Debug\netcoreapp2.0\ReiDoAlmoco.UnitTest.pdb
+C:\Users\Anderson\source\repos\ReiDoAlmoco\ReiDoAlmoco.UnitTest\bin\Debug\netcoreapp2.0\ReiDoAlmoco.Models.dll
+C:\Users\Anderson\source\repos\ReiDoAlmoco\ReiDoAlmoco.UnitTest\bin\Debug\netcoreapp2.0\ReiDoAlmoco.Persistencia.dll
+C:\Users\Anderson\source\repos\ReiDoAlmoco\ReiDoAlmoco.UnitTest\bin\Debug\netcoreapp2.0\ReiDoAlmoco.RegrasDeNegocio.dll
+C:\Users\Anderson\source\repos\ReiDoAlmoco\ReiDoAlmoco.UnitTest\bin\Debug\netcoreapp2.0\ReiDoAlmoco.Models.pdb
+C:\Users\Anderson\source\repos\ReiDoAlmoco\ReiDoAlmoco.UnitTest\bin\Debug\netcoreapp2.0\ReiDoAlmoco.RegrasDeNegocio.pdb
+C:\Users\Anderson\source\repos\ReiDoAlmoco\ReiDoAlmoco.UnitTest\bin\Debug\netcoreapp2.0\ReiDoAlmoco.Persistencia.pdb
+C:\Users\Anderson\source\repos\ReiDoAlmoco\ReiDoAlmoco.UnitTest\obj\Debug\netcoreapp2.0\ReiDoAlmoco.UnitTest.csproj.CopyComplete

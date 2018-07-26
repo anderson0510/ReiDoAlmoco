@@ -27,12 +27,8 @@ namespace ReiDoAlmoco.RegrasDeNegocio
 
         public ICollection<Candidato> ListarCandidatos()
         {
-            ICollection<Candidato> dados =  unit.CandidatoRepository.ListarTodos();
-            foreach (var candidato in dados)
-            {
-                candidato.CandidatoImgPath = "/images/food-img-01.jpg";
-            }
-            return dados;
+            
+            return unit.CandidatoRepository.ListarTodos();
         }
     }
 }

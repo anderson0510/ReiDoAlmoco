@@ -16,7 +16,7 @@ namespace ReiDoAlmoco.WebApplication.ViewModels
 
         public ICollection<Candidato> Candidatos { get; set; }
 
-        public ICollection<RankingReisList> ReisUltimasSemanasList { get; set; }
-        public ICollection<RankingReisList> ReisMenosAmadosList { get; set; }
+        public IDictionary<string, Candidato> ReisUltimasSemanasList { get; set; }
+        public IDictionary<string, Candidato> ReisMenosAmadosList { get; set; }
     }
 }
